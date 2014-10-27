@@ -1,4 +1,4 @@
-candasminareci.com
+candasm.github.io
 ==================
 
 hi[at]candasminareci[dot]com
