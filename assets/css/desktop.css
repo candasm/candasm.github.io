@@ -7,6 +7,7 @@ body {
 
 .container .content .avatar {
     border-radius: 50%;
+    width:200px;
 }
 
 .container .content {
