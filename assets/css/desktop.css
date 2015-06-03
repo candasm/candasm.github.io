@@ -4,16 +4,14 @@ body {
     font-size: 15px;
     color: #fff;
 }
-
 .container .content .avatar {
     border-radius: 50%;
     width:200px;
 }
 
-
 .container .content {
     width: 500px;
-    height: 400px;
+    height: 500px;
     margin: auto;
     position: absolute;
     top: 0;
@@ -21,17 +19,23 @@ body {
     right: 0;
     bottom: 0;
     text-align: center;
+    overflow: hidden;
 }
 
 .container .content h2{
     font-size:30px;
     margin: 10px auto;
 }
-
 .container .content p{
     margin: 10px 0;
 }
 
+.container .content .jobTitle{
+    font-size: 18px;
+}
+.container .content .city{
+    font-size: 12px;
+}
 .container .content .contactLinks {
     margin: 20px auto 0 auto;
     padding: 0;
@@ -49,9 +53,22 @@ body {
 .container .content .contactLinks li a {
     color: #fff;
 }
+.container .content .contactLinks li a:hover{
+    color:green;
+}
 
-.container .content .aboutme{
-    text-align: left;
+.container .content .aboutMe{
+    text-align: center;
+    line-height: 18px;
     width:400px;
     margin:30px auto;
+    color:#bdbdbd;
+    font-size:12px;
+    height: 50px;
+    display: none;
+}
+.container .content .resume{
+    line-height: 20px;
+    margin:20px auto;
+    font-size:12px;
 }
