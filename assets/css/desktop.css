@@ -1,0 +1,83 @@
+body {
+    background: #000;
+    font-family: "verdana";
+    font-size: 15px;
+    color: #fff;
+}
+
+.container .content {
+    width: 450px;
+    height: 600px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    overflow: hidden;
+}
+
+.container .content .avatar {
+    border-radius: 50%;
+    width: 200px;
+}
+
+.container .content h2 {
+    font-size: 30px;
+    margin: 10px auto;
+}
+
+.container .content p {
+    margin: 10px 0;
+}
+
+.container .content .jobTitle {
+    font-size: 18px;
+}
+
+.container .content .city {
+    font-size: 12px;
+}
+
+.container .content .aboutMe {
+    text-align: left;
+    line-height: 18px;
+    width: 400px;
+    margin: 30px auto;
+    color: #bdbdbd;
+    font-size: 12px;
+    display: none;
+}
+.container .content .aboutMe p{
+    text-indent: 10px;
+}
+
+.container .content .resume {
+    line-height: 20px;
+    margin: 20px auto;
+    font-size: 12px;
+}
+
+.container .content .contactLinks {
+    margin: 20px auto 0 auto;
+    padding: 0;
+    width: 400px;
+    height: 20px;
+    font-size: 16px;
+}
+
+.container .content .contactLinks li {
+    float: left;
+    width: 100px;
+    list-style: none;
+}
+
+.container .content .contactLinks li a {
+    color: #fff;
+}
+
+.container .content .contactLinks li a:hover {
+    color: green;
+}
+
