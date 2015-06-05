@@ -6,8 +6,8 @@ body {
 }
 
 .container .content {
-    width: 500px;
-    height: 500px;
+    width: 450px;
+    height: 600px;
     margin: auto;
     position: absolute;
     top: 0;
@@ -41,14 +41,16 @@ body {
 }
 
 .container .content .aboutMe {
-    text-align: center;
+    text-align: left;
     line-height: 18px;
     width: 400px;
     margin: 30px auto;
     color: #bdbdbd;
     font-size: 12px;
-    height: 50px;
     display: none;
+}
+.container .content .aboutMe p{
+    text-indent: 10px;
 }
 
 .container .content .resume {
