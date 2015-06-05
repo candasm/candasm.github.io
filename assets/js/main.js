@@ -11,7 +11,7 @@ _gaq.push(['_trackPageview']);
     var s = document.getElementsByTagName('script')[0];
     s.parentNode.insertBefore(ga, s);
 })();
-$('a').attr("target","_blank").onclick(function(){
+$('a').attr("target","_blank").click(function(){
     var linkTitle= $(this).attr('title');
     _gaq.push(['_trackEvent', 'Link', 'click', linkTitle]);
 });
