@@ -15,4 +15,4 @@ $('a').attr("target","_blank").click(function(){
     var linkTitle= $(this).attr('title');
     _gaq.push(['_trackEvent', 'Link', 'click', linkTitle]);
 });
-$("p.aboutMe").fadeIn();
+$(".aboutMe").fadeIn();
