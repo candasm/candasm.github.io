@@ -1,9 +1,9 @@
-candasm.github.io
+http://www.candasminareci.com
 ==================
 
-hi[at]candasminareci[dot]com
+candas[at]minareci[dot]net
 
-Backend Developer - Istanbul/Turkey
+Backend Developer - Bucharest/Romania
 
 Resume: http://bit.ly/candasminareciresume
 

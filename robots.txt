@@ -1,4 +1,2 @@
 User-agent: *
-Disallow: /cv/
-Disallow: /cv/index.php
 Allow: /
